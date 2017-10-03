@@ -1,0 +1,41 @@
+.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0em;
+} 
+
+
+.row {
+    margin-right:0;
+    margin-left: 0;
+}
+
+
+#head{
+	position: absolute;
+}
+
+#titulo{
+	background: url(../images/teologialanding.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#titulo h1{
+	color:white;
+	font-family: Poppins;
+    font-weight: 300;
+    font-size: 53px;
+}
+
+#titulo button{
+	font-family: Poppins;
+    font-weight: 300;
+    color: white;
+    font-size: 21px;
+    border: 0;
+    border-radius: 4em;
+    background-color: #038FB4;
+    margin-bottom: 3em;
+}
