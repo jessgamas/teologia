@@ -15,6 +15,12 @@
 #head{
 	position: absolute;
 }
+#head > div > div > div:nth-child(1) > div > img{
+    width: 75%;
+}
+#head > div > div > div:nth-child(2) > div > img{
+    width: 75%;
+}
 
 #titulo{
 	background: url(../images/teologialanding.jpg);
@@ -27,6 +33,8 @@
 	font-family: Poppins;
     font-weight: 300;
     font-size: 53px;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 #titulo button{
@@ -39,3 +47,167 @@
     background-color: #038FB4;
     margin-bottom: 3em;
 }
+
+#descripcion h2{
+    text-align: center;
+    color: #038FB4;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 45px
+}
+
+body > div:nth-child(3)> div > div.box > img{
+        width: 45%;
+}
+body > div:nth-child(4)> div > div.box > img{
+        width: 45%;
+}
+body > div:nth-child(5)> div > div.box > img{
+        width: 45%;
+}
+body > div:nth-child(3) > div > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 20px
+}
+
+body > div:nth-child(3) > div > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align: center;
+    color: #1D1E1E;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+body > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 20px
+}
+
+body > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align: center;
+    color: #1D1E1E;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+body > div:nth-child(5) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 20px
+}
+
+body > div:nth-child(5) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align: center;
+    color: #1D1E1E;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#teologia{
+    background-color: #04183D;
+}
+
+#teologia h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 45px
+}
+
+#teologia p{
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 2em;
+    margin: 3em;
+}
+
+#duracion{
+    background-image: url(../images/manos.jpg);
+    background-size: cover;
+}
+
+#duracion h2{
+    text-align: center;
+    color: #0099CC;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 45px
+}
+
+#duracion p{
+    text-align: justify;
+    color: #04183D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 2em;
+    margin: 2em;
+}
+
+#costos > div.col-xs-12 > section > img{
+    width: 161%;
+    margin-top: -8em;
+    margin-left: -14em;
+}
+
+#costos > div.col-xs-12 > h2{
+    margin-top: -8em;
+    /* text-align: justify; */
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 37px;
+}
+
+#costos > div:nth-child(2) > div > h3{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 25px
+}
+
+#costos > div:nth-child(2) > div > h2{
+     color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -0.5em;
+
+}
+
+#costos > div:nth-child(2) > div > p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: -1.5em
+}
+
+#EGRESADOS > div > div > div:nth-child(2) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    width: 34%;
+    border-radius: 10em;
+}
+
+#EGRESADOS > div > div > div:nth-child(3) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    border-radius: 10em;
+     width: 34%;
+}
+
+#EGRESADOS > div > div > div:nth-child(4) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    width: 34%;
+    border-radius: 10em;
+}
+
