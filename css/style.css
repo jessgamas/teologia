@@ -5,7 +5,6 @@
     padding: 1em 0em;
 } 
 
-
 .row {
     margin-right:0;
     margin-left: 0;
@@ -64,20 +63,30 @@ button:hover {
 }
 
 /*EMPIEZA ICONOS*/
-#descripcion > div:nth-child(2){
-    margin-bottom: 4em;
+#descripcion > div > div:nth-child(1) > div{
+    position: relative;
+    height: 60px;
 }
-#descripcion > div:nth-child(2) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
-        width: 45%;
+
+#descripcion > div > div:nth-child(1) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
 }
-#descripcion > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+#descripcion > div > div:nth-child(1) > h3{
          text-align: center;
         color: #038FB4;
         font-family: Poppins;
         font-weight: 300;
         font-size: 23px
 }
-#descripcion > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+#descripcion > div > div:nth-child(1) > p{
     text-align:justify;
     color: #000033;
     font-family: Poppins;
@@ -88,20 +97,30 @@ button:hover {
     margin-top: -1em;
 }
 
-#descripcion > div:nth-child(3){
-    margin-bottom: 4em;
+#descripcion > div > div:nth-child(2) > div{
+    position: relative;
+    height: 60px;
 }
-#descripcion > div:nth-child(3) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
-        width: 45%;
+
+#descripcion > div > div:nth-child(2) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
 }
-#descripcion > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+#descripcion > div > div:nth-child(2) > h3{
          text-align: center;
         color: #038FB4;
         font-family: Poppins;
         font-weight: 300;
         font-size: 23px
 }
-#descripcion > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+#descripcion > div > div:nth-child(2) > p{
     text-align:justify;
     color: #000033;
     font-family: Poppins;
@@ -112,20 +131,30 @@ button:hover {
     margin-top: -1em;
 }
 
-#descripcion > div:nth-child(4){
-    margin-bottom: 4em;
+#descripcion > div > div:nth-child(3) > div{
+    position: relative;
+    height: 60px;
 }
-#descripcion > div:nth-child(4) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
-    width: 45%;
+
+#descripcion > div > div:nth-child(3) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
 }
-#descripcion > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+#descripcion > div > div:nth-child(3) > h3{
          text-align: center;
         color: #038FB4;
         font-family: Poppins;
         font-weight: 300;
         font-size: 23px
 }
-#descripcion > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+#descripcion > div > div:nth-child(3) > p{
     text-align:justify;
     color: #000033;
     font-family: Poppins;
@@ -135,6 +164,7 @@ button:hover {
     margin: 2em;
     margin-top: -1em;
 }
+
 /*TERMINA ICONOS*/
 
 /* Empieza Descripcion de teologia*/
@@ -169,14 +199,12 @@ button:hover {
     margin: 3em;
 }
 
-#duracion{
-    
-    background-image: url(../images/manos.jpg);
+
+#duracion{ 
+    background-image: url(../images/manos.png);
     height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -8em;
 }
 
 #duracion h2{
@@ -196,12 +224,12 @@ button:hover {
     font-weight: 400;
     font-size: 19px;
     line-height: 2em;
-    margin: 2em;
+    margin: 1em;
 }
 
 #costos > div.col-xs-12 > section > img{
     width: 161%;
-    margin-top: -5em;
+    margin-top: -8em;
     margin-left: -14em;
 }
 
@@ -413,9 +441,7 @@ footer{
         width: 50%;
     }
 
-     /*#teologia > section > div.row.caja > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
-        margin-right: 2em;
-    }*/
+
      #teologia > section{
         margin: 0em 0em;
         padding: 10em 0em;
@@ -440,14 +466,19 @@ footer{
         padding: 5em 0em;
     }
 
+
     #costos > div.col-xs-12 > section > img{
         margin-top: -8em;
         margin-left: -2em;
     }
 
+    #copy > section > div > div.col-xs-6.middle-xs > p{
+        font-size: 16px;
+    }
+
     #copy > section > div > div:nth-child(2) > div > img{
-            width: 45%;
-    margin-left: 3em;
+        width: 45%;
+        margin-left:12em;
     }
 
     #copy > section > div > div:nth-child(3) > div > img{
@@ -455,4 +486,124 @@ footer{
     margin-left: 3em;
     }
 
+    #final > section{
+        padding: 6em 0em;
+    }
+
+    #final > section > div > h1{
+        margin-left:0em;
+    }
+
+    #final > section > div > a > button{
+        margin-left: 0em;
+    }
+   
+    }
+
+@media only screen and (min-width: 1024px){
+
+        #titulo > section{
+            padding: 6em 0em;
+        }
+
+         #teologia > section{
+            padding: 16em 0em;
+         }
+
+        #duracion{
+            height: 658px;
+            margin-top: -9em;
+        }
+
+        #duracion > section.container > div > p{
+    
+            text-align: justify;
+            color: #04183D;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 2em;
+            margin: 6em;
+            margin-top: 3em;
+        }
+/*TEXTO DE LOS COSTOS*/
+        #costos > div.container > div > div:nth-child(1) > div > h3{
+            font-size: 35px;
+        }
+        #costos > div.container > div > div:nth-child(1) > div > h2{
+            margin-top: -1em;
+        }
+        #costos > div.container > div > div:nth-child(1) > div > p{
+            margin-top: -1em;
+            font-size: 25px;
+        }
+
+        #costos > div.container > div > div:nth-child(2) > div > h3{
+            font-size: 35px;
+        }
+        #costos > div.container > div > div:nth-child(2) > div > h2{
+            margin-top: -1em;
+        }
+        #costos > div.container > div > div:nth-child(2) > div > p{
+            margin-top: -1em;
+            font-size: 25px;
+        }
+/* FIN TEXTO DE LOS COSTOS*/
+
+        #costos > div.col-xs-12 > section > img{
+            margin-top: -11em;
+        }
+
+        #teologia > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > h2{
+            font-size:55px;
+        }
+
+        #teologia > section > div > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+            font-size: 25px;
+            line-height: 1.5em;
+            margin: 3em
+        }
+
+        #costos > div.col-xs-12 > h2{
+            font-size: 45px;
+            text-align: center;
+            margin-top: -9em;
+            margin-bottom: 0em;
+        }
+
+        #costos > div.container{
+                padding: 6em 0em;
+        }
+
+        #copy > section > div > div:nth-child(2) > div > img{
+                width: 39%;
+                margin-left: 16em;
+        }
+
+        #copy > section > div > div:nth-child(3) > div > img{
+            width: 39%;
+        }
+       
+}
+
+@media only screen and (min-width: 1024px){
+
+   #descripcion > div > div:nth-child(1) > div{
+    height: 116px;
+   }
+    #titulo > section{
+        padding: 23em 0em;
+    }
+
+    #titulo > section > div > h1{
+        font-size: 70px;
+    }
+    #teologia > section{
+        padding: 15em 0em;
+        height: 771px;
+    }
+    #duracion{
+        height: 786px;
+        margin-top: -15em;
+    }
     }
