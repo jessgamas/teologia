@@ -11,20 +11,28 @@
 }
 
 
-#head{
-	position: absolute;
-}
-#head > div > div > div:nth-child(1) > div > img{
-    width: 75%;
-}
-#head > div > div > div:nth-child(2) > div > img{
-    width: 75%;
+header{
+	background: url(../images/teologialanding.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: skew(0deg, -5deg);
+    margin-top: -100px;
 }
 
-#titulo{
-	background: url(../images/teologialanding.png);
-	background-size: cover;
-	background-position: center;
+#head > div{
+    transform: skew(0deg, 5deg);
+}
+#head > div > div:nth-child(1) > div > img{
+    width: 70%;
+    margin-top: 8em;
+}
+#head > div > div:nth-child(2) > div > img{
+    width: 70%;
+    margin-top: 8em;
+}
+
+#titulo > section{
+    transform: skew(0deg, 5deg)
 }
 
 #titulo h1{
@@ -53,6 +61,7 @@ button:hover {
     color: white;
     border:none;
 }
+
 
 #descripcion h2{
     text-align: center;
@@ -169,14 +178,14 @@ button:hover {
 
 /* Empieza Descripcion de teologia*/
 #teologia{
-    background: url(../images/azulfondo.png);
+    background: url(../images/azulfondo.jpg);
     background-size: cover;
     background-position: center;
+    transform: skew(0deg, -5deg);
 }
-/*#teologia > section > div.box > img{
-    width: 100%;
-    margin-bottom: -33em
-}*/
+#teologia > section > div{
+    transform: skew(0deg, 5deg);
+}
 #teologia > section{
     padding: 6em 0em;
 }
@@ -201,10 +210,13 @@ button:hover {
 
 
 #duracion{ 
-    background-image: url(../images/manos.png);
-    height: 500px;
+    background-image: url(../images/manos.jpg);
+    height: 525px;
     background-size: cover;
-    margin-top: -8em;
+    margin-top: -2em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #duracion h2{
@@ -213,7 +225,7 @@ button:hover {
     font-family: Poppins;
     font-weight: 500;
     font-size: 45px;
-    margin-top: 2em;
+    margin-top: 2.5em;
     margin-left: 0.5em;
 }
 
@@ -227,14 +239,22 @@ button:hover {
     margin: 1em;
 }
 
-#costos > div.col-xs-12 > section > img{
-    width: 161%;
-    margin-top: -8em;
-    margin-left: -14em;
+#costos{
+    background: url(../images/biblia2.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: skew(0deg, -5deg);
+}
+#costos > section > div{
+    transform: skew(0deg, 5deg);
+
 }
 
-#costos > div.col-xs-12 > h2{
-    margin-top: -8em;
+#costos > section{
+    margin-top: -2em;
+}
+
+#costos > section > div > div.col-xs-12 > div > h2{
     margin-bottom: 0em;
     margin-left: .5em;
     color: white;
@@ -245,14 +265,14 @@ button:hover {
 }
 
 /*PRECIO DE MATRICULAS-1*/
-#costos > div.container > div > div:nth-child(1) > div > h3{
+#costos > section > div > div.container > div > div:nth-child(2) > div > h3{
     color: white;
     font-family: Poppins;
     font-weight: 300;
     font-size: 25px
 }
 
-#costos > div.container > div > div:nth-child(1) > div > h2{
+#costos > section > div > div.container > div > div:nth-child(2) > div > h2{
      color: white;
     font-family: Poppins;
     font-weight: 100;
@@ -260,7 +280,7 @@ button:hover {
     margin-top: -0.5em;
 }
 
-#costos > div.container > div > div:nth-child(1) > div > p{
+#costos > section > div > div.container > div > div:nth-child(2) > div > p{
     color: white;
     font-family: Poppins;
     font-weight: 100;
@@ -269,14 +289,14 @@ button:hover {
 /*PRECIO DE MATRICULAS-1 */
 
 /*PRECIO DE MATRICULAS-2 */
-#costos > div.container > div > div:nth-child(2) > div > h3{
+#costos > section > div > div.container > div > div:nth-child(1) > div > h3{
     color: white;
     font-family: Poppins;
     font-weight: 300;
     font-size: 25px
 }
 
-#costos > div.container > div > div:nth-child(2) > div > h2{
+#costos > section > div > div.container > div > div:nth-child(1) > div > h2{
      color: white;
     font-family: Poppins;
     font-weight: 100;
@@ -284,7 +304,7 @@ button:hover {
     margin-top: -0.5em;
 }
 
-#costos > div.container > div > div:nth-child(2) > div > p{
+#costos > section > div > div.container > div > div:nth-child(1) > div >p{
     color: white;
     font-family: Poppins;
     font-weight: 100;
@@ -590,6 +610,26 @@ footer{
 
    #descripcion > div > div:nth-child(1) > div{
     height: 116px;
+   }
+
+   #descripcion > div > div:nth-child(1) > h3{
+    font-size: 30px;
+   }
+
+    #descripcion > div > div:nth-child(2) > div{
+    height: 116px;
+   }
+
+   #descripcion > div > div:nth-child(2) > h3{
+    font-size: 30px;
+   }
+
+    #descripcion > div > div:nth-child(3) > div{
+    height: 116px;
+   }
+
+   #descripcion > div > div:nth-child(3) > h3{
+    font-size: 30px;
    }
     #titulo > section{
         padding: 23em 0em;
