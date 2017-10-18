@@ -361,8 +361,9 @@ button:hover {
     font-weight: 300;
     font-size: 23px;
 }
-#EGRESADOS > div:nth-child(1) > p{
-    text-align: justify;
+
+#EGRESADOS > div > div:nth-child(1) > p{
+        text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
@@ -370,6 +371,7 @@ button:hover {
     line-height: 1.5em;
     margin: 2em;
     margin-top: -1em;
+
 }
 
 /*INICIO EGRESADO 2*/
@@ -401,8 +403,8 @@ button:hover {
     font-weight: 300;
     font-size: 23px;
 }
-#EGRESADOS > div:nth-child(2) > p{
-    text-align: justify;
+#EGRESADOS > div > div:nth-child(2) > p{
+        text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
@@ -441,14 +443,15 @@ button:hover {
     font-weight: 300;
     font-size: 23px;
 }
-#EGRESADOS > div:nth-child(3) > p{
-    text-align: justify;
+#EGRESADOS > div > div:nth-child(3) > p{
+        text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.5em;
     margin: 2em;
+    margin-top: -1em;
     margin-top: -1em;
 }
 /*FINAL EGRESADOS*/
@@ -766,8 +769,83 @@ footer{
 
 @media only screen and (min-width: 1440px){
 
+    #head > div > div:nth-child(1) > div > img {
+        width: 36%;
+    } 
+
+    #head > div > div:nth-child(2) > div > img {
+    width: 36%;
+    }
+
     #teologia > section {
     padding: 15em 8em;
-}
+    }
 
-}
+    #EGRESADOS > div:nth-child(2) {
+    margin-bottom: 6em
+  }  
+
+    #descripcion > div > div:nth-child(1) > p {
+        font-size: 27px;
+       line-height: 1.5em;
+        margin: 2em;
+        margin-top: 0.5em;
+   }
+
+
+    #descripcion > div > div:nth-child(2) > p {
+        font-size: 27px;
+       line-height: 1.5em;
+        margin: 2em;
+        margin-top: 0.5em;
+   }
+
+   #descripcion > div > div:nth-child(3) > p {
+    font-size: 27px;
+       line-height: 1.5em;
+        margin: 2em;
+        margin-top: 0.5em;
+   }
+   #duracion {
+    height: 796px;
+    margin-top: -10em
+    }
+
+    #costos {
+    margin-top: -5em;
+    }
+
+   #costos > section > div > div.col-xs-12 > div > h2 {
+    font-size: 55px;
+    }
+
+    #costos > section > div > div.container > div > div:nth-child(1) > div {
+    margin-top: 6em;
+    }
+
+    #costos > section > div > div.container > div > div:nth-child(2) > div {
+    margin-top: 6em;
+    }
+
+   #final{
+        padding:0em;
+   }
+
+   #final > section > div > h1 {
+        font-size: 59px;
+    } 
+
+   #final > section > div > a > button {
+    font-size: 33px;
+    }
+
+    #copy > section > div > div:nth-child(2) > div > img {
+    margin-left: 27em;
+    }
+
+    #copy > section > div > div:nth-child(3) > div > img {
+    margin-left: 16em;
+    }
+
+
+   }
