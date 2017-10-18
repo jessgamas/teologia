@@ -74,7 +74,7 @@ button:hover {
 /*EMPIEZA ICONOS*/
 #descripcion > div > div:nth-child(1) > div{
     position: relative;
-    height: 60px;
+    height: 94px;
 }
 
 #descripcion > div > div:nth-child(1) > div > img{
@@ -108,7 +108,7 @@ button:hover {
 
 #descripcion > div > div:nth-child(2) > div{
     position: relative;
-    height: 60px;
+    height: 94px;
 }
 
 #descripcion > div > div:nth-child(2) > div > img{
@@ -142,7 +142,7 @@ button:hover {
 
 #descripcion > div > div:nth-child(3) > div{
     position: relative;
-    height: 60px;
+    height: 94px;
 }
 
 #descripcion > div > div:nth-child(3) > div > img{
@@ -244,7 +244,14 @@ button:hover {
     background-size: cover;
     background-position: center;
     transform: skew(0deg, -5deg);
+    padding: 9em 0em;
+    margin-top: -2em;
 }
+
+#costos > section > div > div.container > div > div:nth-child(1) > div{
+    margin-right: 6em;
+}
+
 #costos > section > div{
     transform: skew(0deg, 5deg);
 
@@ -324,21 +331,38 @@ button:hover {
 
 
 /*INICIO EGRESADO 1*/
-#EGRESADOS > div:nth-child(2){
+
+#EGRESADOS > div > div:nth-child(1) > div{
+        position: relative;
+        height: 115px;
+}
+
+#EGRESADOS > div:nth-child(1){
     margin-bottom: 4em;
 }
 
-#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
-    width: 34%;
-    border-radius: 10em;
+#EGRESADOS > div > div:nth-child(1) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+     border-radius: 10em;
 }
-#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+
+#EGRESADOS > div > div:nth-child(1) > h3{
+    text-align: center;
     color: #000033;
+    font-family: Poppins;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 23px;
 }
-#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
-    text-align:justify;
+#EGRESADOS > div:nth-child(1) > p{
+    text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
@@ -349,21 +373,36 @@ button:hover {
 }
 
 /*INICIO EGRESADO 2*/
-#EGRESADOS > div:nth-child(3){
+#EGRESADOS > div > div:nth-child(2) > div{
+        position: relative;
+        height: 115px;
+}
+
+#EGRESADOS > div:nth-child(2) {
     margin-bottom: 4em;
 }
 
-#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+#EGRESADOS > div > div:nth-child(2) > div > img{
+     position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 10em;
-     width: 34%;
 }
-#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+#EGRESADOS > div > div:nth-child(2) > h3{
+    text-align: center;
     color: #000033;
+    font-family: Poppins;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 23px;
 }
-#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
-    text-align:justify;
+#EGRESADOS > div:nth-child(2) > p{
+    text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
@@ -374,25 +413,36 @@ button:hover {
 }
 
 /*INICIO EGRESADO 3*/
+ #EGRESADOS > div > div:nth-child(3) > div{
+        position: relative;
+        height: 115px;
+}
 
-#EGRESADOS > div:nth-child(4){
+#EGRESADOS > div:nth-child(3){
     margin-bottom: 4em;
 }
 
-#descripcion > div:nth-child(4){
-    margin-bottom: 4em;
+#EGRESADOS > div > div:nth-child(3) > div > img{
+ position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+     border-radius: 10em;
 }
-#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
-    width: 34%;
-    border-radius: 10em;
-}
-#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+#EGRESADOS > div > div:nth-child(3) > h3{
+    text-align: center;
     color: #000033;
+    font-family: Poppins;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 23px;
 }
-#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
-    text-align:justify;
+#EGRESADOS > div:nth-child(3) > p{
+    text-align: justify;
     color: #000033;
     font-family: Poppins;
     font-weight: 500;
@@ -444,7 +494,6 @@ footer{
 
 
 
-
 /*EMPIEZA TABLET*/
 
 @media only screen and (min-width: 768px){
@@ -453,23 +502,39 @@ footer{
         font-size: 67px;
     }
 
-    #head > div > div > div:nth-child(1) > div > img{
-        width: 50%;
+    #head > div > div:nth-child(1) > div > img {
+    width: 50%;
     }
 
-    #head > div > div > div:nth-child(2) > div > img{
+    #head > div > div:nth-child(2) > div > img {
         width: 50%;
     }
+    #descripcion{
+        margin-top: 4em;
+    }
 
-
-     #teologia > section{
+    #teologia{
+        margin-top: 4em;
+    }
+     
+    #teologia > section{
         margin: 0em 0em;
         padding: 10em 0em;
     }
 
-
     #teologia > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div{
-         margin-top: 8em;
+             margin-top: 9em;
+            margin-left: 6em
+    }
+
+     #descripcion > div > div:nth-child(1) > h3 {
+        font-size: 25px;
+    }
+     #descripcion > div > div:nth-child(2) > h3 {
+        font-size: 25px;
+    }
+    #descripcion > div > div:nth-child(3) > h3 {
+        font-size: 25px;
     }
 
     #costos > div.col-xs-12 > section > img{
@@ -482,10 +547,37 @@ footer{
         margin-bottom: -28em;
     }
 
+    #teologia > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > h2{
+        font-size: 45px;
+    }
+
+    #teologia > section > div > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+            font-size: 25px;
+            margin: 0em;
+            margin-left: 4em;
+    }
+    #duracion{
+        margin-top: -4em;
+    }
+
     #duracion > section{
         padding: 5em 0em;
     }
 
+    #duracion p{
+        font-size: 25px;
+        margin: 1.5em;
+    }
+
+
+    #costos {
+        margin-top: -3em;
+    }
+
+    #costos > section > div > div.col-xs-12 > div > h2{
+            font-size: 45px;
+            text-align: center;
+    }
 
     #costos > div.col-xs-12 > section > img{
         margin-top: -8em;
@@ -494,6 +586,10 @@ footer{
 
     #copy > section > div > div.col-xs-6.middle-xs > p{
         font-size: 16px;
+    }
+
+    #costos > section > div > div.container > div > div:nth-child(1) > div {
+    margin-right: -2em
     }
 
     #copy > section > div > div:nth-child(2) > div > img{
@@ -546,6 +642,7 @@ footer{
             margin: 6em;
             margin-top: 3em;
         }
+
 /*TEXTO DE LOS COSTOS*/
         #costos > div.container > div > div:nth-child(1) > div > h3{
             font-size: 35px;
@@ -606,7 +703,19 @@ footer{
        
 }
 
+
+/*EMPIEZA DESKTOP*/
+
 @media only screen and (min-width: 1024px){
+
+     #titulo > section{
+        padding: 1em 0em;
+    }
+
+    #titulo > section > div > h1{
+            font-size: 58px;
+            margin-right: 9em;
+    }
 
    #descripcion > div > div:nth-child(1) > div{
     height: 116px;
@@ -631,19 +740,34 @@ footer{
    #descripcion > div > div:nth-child(3) > h3{
     font-size: 30px;
    }
-    #titulo > section{
-        padding: 23em 0em;
-    }
-
-    #titulo > section > div > h1{
-        font-size: 70px;
-    }
+   
     #teologia > section{
         padding: 15em 0em;
-        height: 771px;
+        height: 0em;
     }
+
+    #teologia > section > div{
+     margin-top: -9em;
+    }
+    
     #duracion{
         height: 786px;
         margin-top: -15em;
     }
+
+    #duracion > section {
+    padding: 14em 0em;
     }
+
+    #duracion > section > div > h2{
+        font-size: 55px;
+        text-align: center;
+    }
+
+@media only screen and (min-width: 1440px){
+
+    #teologia > section {
+    padding: 15em 8em;
+}
+
+}
